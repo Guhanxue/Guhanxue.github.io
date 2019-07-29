@@ -23,7 +23,7 @@ nav_menu:
     url: /projects
     icon: /i/icons.svg#portfolio
   - name: GitHub
-    url: https://github.com/rlue/
+    url: https://github.com/Guhanxue
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
   - name: Contact
@@ -34,21 +34,17 @@ nav_menu:
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue/jekyll-solana
+  - title: 3D-Hand Pose Reconstruction
+    teaser: a Reconstruction system
+    url: /
     role: Creator
-    category: Frontend Dev
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
+    category: Computer vision
+  - title: Breast Reconstruction
+    teaser: need to develop
+    url: /
     role: Core Team
     category: NLP
-  - title: Rihanna
-    teaser: Possibly another robot. Also available on Google Play.
-    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
-    role: Contributor
-    category: Algorithmic Composition
+
 
 #################
 # Site Settings #
