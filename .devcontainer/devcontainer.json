@@ -8,7 +8,7 @@
   "features": {
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev"
-    },
+    }
   },
 
   // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
