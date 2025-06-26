@@ -378,12 +378,7 @@ ninja.data = [{
             window.location.href = "/sample-posts/2015/03/15/formatting-and-links.html";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-thrilled-to-announce-that-segmentanybone-a-universal-model-that-segments-any-bone-at-any-location-on-mri-has-been-accepted-to-medical-image-analysis-this-work-presents-the-first-generalized-mri-bone-segmentation-model-across-anatomical-regions-and-mri-sequences-thank-you-to-all-collaborators",
+      },{id: "news-thrilled-to-announce-that-segmentanybone-a-universal-model-that-segments-any-bone-at-any-location-on-mri-has-been-accepted-to-medical-image-analysis-this-work-presents-the-first-generalized-mri-bone-segmentation-model-across-anatomical-regions-and-mri-sequences-thank-you-to-all-collaborators",
           title: '🦴 Thrilled to announce that “SegmentAnyBone: A Universal Model that Segments Any Bone...',
           description: "",
           section: "News",},{id: "news-our-paper-how-to-build-the-best-medical-image-segmentation-algorithm-using-foundation-models-has-been-accepted-to-the-journal-of-machine-learning-for-biomedical-imaging-we-benchmarked-18-fine-tuning-strategies-for-adapting-sam-in-medical-imaging-and-open-sourced-our-pipeline-proud-to-contribute-to-the-community",
