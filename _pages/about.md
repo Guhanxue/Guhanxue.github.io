@@ -33,9 +33,6 @@ I am interested in several research topics, including foundation models, self- a
 
 Before starting my Ph.D., I received my Bachelor’s degree from Zhejiang University, where I studied Electrical & Information Engineering and minored in ACEE under the Chu Kochen Honors College. Prior to Duke, I spent a year as a research intern at the [Athinoula A. Martinos Center for Biomedical Imaging at Massachusetts General Hospital (MGH)](https://www.martinos.org/), where I worked on optical image reconstruction and deep learning.
 
-
 See my [Google Scholar](https://scholar.google.com/citations?user=aGjCpQUAAAAJ&hl=en) for a full list of my publications, with a few highlights shown below.
 
-
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/hanxue-gu-24882a22a/) or contact me through email— I’m always happy to chat! (🤗)
-
