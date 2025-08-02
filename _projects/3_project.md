@@ -9,11 +9,14 @@ related_publications: true
 ---
 
 We quantify body composition from CT and MRI to support:
+
 - **Prediction of chronic disease risk**: cardiovascular, diabetes, cancer.
 - **Detection of hormonal and metabolic disorders**.
 - **Pre-surgical frailty assessment** and risk stratification.
 
 These imaging biomarkers provide interpretable, explainable clinical indicators.
+
+{% raw %}
 
 <div class="row">
     <div class="col-sm mt-3">
@@ -24,3 +27,4 @@ These imaging biomarkers provide interpretable, explainable clinical indicators.
 <div class="caption">
     Imaging-based biomarkers for patient stratification and outcome prediction.
 </div>
+{% endraw %}

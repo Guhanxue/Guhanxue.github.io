@@ -20,17 +20,18 @@ This line of work focuses on pushing the robustness and efficiency of clinical i
 
 These techniques enhance both performance and usability in clinical environments.
 
+{% raw %}
+
 <div class="row">
     <div class="col-sm mt-3">
         {% include figure.liquid path="assets/img/publication_preview/TTA.png" title="Test-time adaptation" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3">
-        {% include figure.liquid path="assets/img/publication_preview/contour-diff" title="Diffusion synthesis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/publication_preview/contour-diff.png" title="Diffusion synthesis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="caption">
     Left: On-the-fly model adaptation. Right: Synthetic anatomy using generative models.
 </div>
-
-[def]: https://arxiv.org/abs/2505.13414
+{% endraw %}
