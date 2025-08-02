@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is Hanxue Gu&#39;s resume updated by June-17-2025.",
+          description: "This is Hanxue Gu&#39;s resume updated by July-03-2025.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
