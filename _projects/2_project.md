@@ -1,81 +1,36 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Techniques for Medical Imaging Analysis
+description: Efficient, adaptable deep learning tools for robust image analysis.
+img: assets/img/publication_preview/finetune_strategy_v9.png
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This line of work focuses on pushing the robustness and efficiency of clinical image analysis through:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- **Fine-tuning foundation models** with low-rank adaptation (LoRA), adapters, and contrastive loss.
+- **Annotation-efficient learning** [Accelerating Volumetric Medical Image Annotation via Short-Long Memory SAM 2](https://arxiv.org/abs/2505.01854)
+- **Domain shifts evaluation and OOD detection** [Fréchet Radiomic Distance (FRD): A Versatile Metric for Comparing Medical Imaging Datasets](https://arxiv.org/abs/2412.01496)
+- **Test-time adaptation** for robustness to distribution shift. [InTEnt](https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/html/Dong_Medical_Image_Segmentation_with_InTEnt_Integrated_Entropy_Weighting_for_Single_CVPRW_2024_paper.html)
+- **Diffusion and generative models** for synthesis and augmentation, [Contour-diff](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aGjCpQUAAAAJ&citation_for_view=aGjCpQUAAAAJ:hqOjcs7Dif8C)
+- **2D to 3D reconstruction** for reconstruct high-resolution 3D object from 2D images, like 2D Xrays ([Fracture reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aGjCpQUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=aGjCpQUAAAAJ:LkGwnXOMwfcC)), 2D MRIs ([SuperMask](https://proceedings.mlr.press/v227/gu24b.html)).
+- **Registration algorithms** for breast registration, like [GuidedMorph](https://arxiv.org/abs/2505.13414).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+These techniques enhance both performance and usability in clinical environments.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3">
+        {% include figure.liquid path="assets/img/publication_preview/TTA.png" title="Test-time adaptation" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3">
+        {% include figure.liquid path="assets/img/publication_preview/contour-diff" title="Diffusion synthesis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: On-the-fly model adaptation. Right: Synthetic anatomy using generative models.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[def]: https://arxiv.org/abs/2505.13414
