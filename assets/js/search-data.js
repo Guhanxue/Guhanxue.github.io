@@ -187,21 +187,29 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-share-that-our-paper-breast-density-in-mri-an-ai-based-quantification-and-relationship-to-assessment-in-mammography-has-been-accepted-for-publication-in-npj-breast-cancer-in-this-study-we-developed-an-ai-driven-pipeline-to-quantify-breast-density-directly-from-mri-scans-and-explored-how-these-mri-derived-metrics-relate-to-traditional-density-assessments-from-mammography-our-work-provides-new-insights-into-leveraging-mri-for-more-comprehensive-breast-density-evaluation-huge-thanks-to-all-co-authors-and-collaborators-looking-forward-to-seeing-this-work-published-soon",
           title: '🩺 Excited to share that our paper “Breast density in MRI: an AI-based...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-thrilled-to-share-that-two-of-our-papers-on-breast-mri-have-been-accepted-to-the-deep-breath-workshop-at-miccai-2025-the-first-paper-presents-the-most-comprehensive-breast-mri-segmentation-dataset-to-date-covering-a-wide-range-of-anatomical-structures-we-hope-this-effort-can-lay-the-foundation-for-future-research-in-breast-composition-analysis-risk-stratification-and-ai-driven-screening-tools-the-second-paper-focuses-on-generalizable-breast-mri-registration-addressing-the-challenge-of-aligning-highly-deformable-anatomy-across-patients-and-imaging-sessions-we-demonstrate-the-power-of-foundation-model-features-and-training-free-registration-strategies-to-enable-robust-alignment-without-manual-annotation-we-believe-these-works-together-push-toward-more-generalizable-scalable-and-interpretable-tools-for-breast-mri-analysis-stay-tuned-datasets-code-and-more-resources-will-be-released-soon-big-thanks-to-the-deep-breath-organizers-and-all-our-co-authors-and-collaborators",
+          title: '🎉 Thrilled to share that two of our papers on breast MRI have...',
+          description: "",
+          section: "News",},{id: "projects-foundation-models-for-medical-imaging",
+          title: 'Foundation Models for Medical Imaging',
+          description: "Building and fine-tuning vision foundation models for clinical imaging tasks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-techniques-for-medical-imaging-analysis",
+          title: 'Techniques for Medical Imaging Analysis',
+          description: "Efficient, adaptable deep learning tools for robust image analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-body-composition-for-clinical-insight",
+          title: 'Body Composition for Clinical Insight',
+          description: "Using muscle, fat, and bone metrics to understand health risks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
+            },},{id: "projects-broader-clinical-ai-applications",
+          title: 'Broader Clinical AI Applications',
+          description: "Generalizable tools for tumor detection, biomarker extraction, and diagnosis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project.html";
             },},{
         id: 'social-email',
         title: 'email',
