@@ -16,8 +16,6 @@ We develop and benchmark foundation models tailored for medical imaging tasks. O
 
 Our models aim to reduce annotation cost and improve generalizability in real-world clinical settings.
 
-{% raw %}
-
 <div class="row">
     <div class="col-sm mt-3">
         {% include figure.liquid path="assets/img/publication_preview/WholeBody_dataset.png" title="SegmentAnyBone Overview" class="img-fluid rounded z-depth-1" %}
@@ -30,4 +28,4 @@ Our models aim to reduce annotation cost and improve generalizability in real-wo
 <div class="caption">
     Left: Bone segmentation in knee MRI. Right: Multi-sequence MRI model using MRI-CORE.
 </div>
-{% endraw %}
+

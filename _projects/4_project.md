@@ -15,7 +15,6 @@ We extend our work to broader clinical imaging domains, including:
 - **Image-based biomarker extraction** for diagnosis, prognosis, and other clinical usage.
 
 Our goal is to build **interpretable, robust, and deployable tools** for real-world practice.
-{% raw %}
 
 <div class="row">
     <div class="col-sm mt-3">
@@ -29,4 +28,4 @@ Our goal is to build **interpretable, robust, and deployable tools** for real-wo
 <div class="caption">
     Applications include cancer diagnosis and population-scale screening pipelines.
 </div>
-{% endraw %}
+

@@ -16,8 +16,6 @@ We quantify body composition from CT and MRI to support:
 
 These imaging biomarkers provide interpretable, explainable clinical indicators.
 
-{% raw %}
-
 <div class="row">
     <div class="col-sm mt-3">
         {% include figure.liquid path="assets/img/publication_preview/abdomen_paper.png" title="Fat and muscle segmentation" class="img-fluid rounded z-depth-1" %}
@@ -27,4 +25,3 @@ These imaging biomarkers provide interpretable, explainable clinical indicators.
 <div class="caption">
     Imaging-based biomarkers for patient stratification and outcome prediction.
 </div>
-{% endraw %}
