@@ -28,4 +28,3 @@ Our models aim to reduce annotation cost and improve generalizability in real-wo
 <div class="caption">
     Left: Bone segmentation in knee MRI. Right: Multi-sequence MRI model using MRI-CORE.
 </div>
-

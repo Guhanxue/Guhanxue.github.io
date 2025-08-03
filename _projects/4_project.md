@@ -28,4 +28,3 @@ Our goal is to build **interpretable, robust, and deployable tools** for real-wo
 <div class="caption">
     Applications include cancer diagnosis and population-scale screening pipelines.
 </div>
-
